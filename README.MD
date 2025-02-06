@@ -46,6 +46,7 @@ curl -X 'GET' \
 ```
 
 Provision an e-Sim Endpoint.
+```
 curl -X 'POST' \
   'http://localhost:5000/eSim/provision' \
   -H 'accept: */*' \
